@@ -1,4 +1,4 @@
-# Luke's lf settings
+# Luke's lf settings (not Luke's anymore, hehe)
 
 # Basic vars
 set shell bash
@@ -9,6 +9,7 @@ set color256
 set icons
 set period 1
 set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
+set hidden 0
 
 # Vars that depend on environmental variables
 $lf -remote "send $id set previewer ${XDG_CONFIG_HOME:-$HOME/.config}/lf/scope"
@@ -90,3 +91,6 @@ map b $setbg $f
 map <c-e> down
 map <c-y> up
 map V push :!nvim<space>
+
+map j up
+map k down
