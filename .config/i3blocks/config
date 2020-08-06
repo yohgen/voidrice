@@ -31,15 +31,15 @@ signal=7
 interval=18000
 signal=5
 
-[mailbox]
-interval=180
-signal=12
+#[mailbox]
+#interval=180
+#signal=12
 
-#[memory]
-#interval=30
+[memory]
+interval=30
 
-#[cpu]
-#interval=15
+[cpu]
+interval=15
 
 [volume]
 interval=once

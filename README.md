@@ -4,4 +4,7 @@ For more info, go to the official [website](https://larbs.xyz), or directly to t
 
 ## List of changes
 
-*under construction*
+- Reverted the option to install i3 version
+- (!) All programs that use vim movement keys have k and j swapped (j for 'up' and k for 'down'), for gamer muscle memory dies hard
+- Added font support to accomodate the maximum number of languages and writing systems (East Asian hieroglyphs, Afro-Asiatic/Semitic scripts, etc. ), as befits a proper linguist
+- Some stylistic changes in dotfiless
